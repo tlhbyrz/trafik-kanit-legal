@@ -1,0 +1,133 @@
+/* Trafik Kanıt Defteri — legal pages */
+:root {
+  --navy-900: #070E22;
+  --navy-800: #0B1B3F;
+  --navy-700: #142A5C;
+  --slate-50: #F6F8FC;
+  --slate-200: #CFD5E2;
+  --slate-600: #475569;
+  --slate-700: #2D3A50;
+  --record: #E63946;
+  --max-w: 720px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--slate-50);
+  color: var(--navy-900);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--navy-800);
+  color: #fff;
+  padding: 28px 20px;
+}
+header .wrap {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+header h1 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: -0.4px;
+  font-weight: 800;
+}
+header p {
+  margin: 4px 0 0;
+  color: rgba(255,255,255,0.72);
+  font-size: 14px;
+}
+
+main {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+nav.lang {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--slate-200);
+  padding-bottom: 12px;
+}
+nav.lang a {
+  font-size: 13px;
+  color: var(--slate-600);
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+nav.lang a:hover { background: #ECEFF6; color: var(--navy-800); }
+nav.lang a.active { background: var(--navy-800); color: #fff; }
+
+h2 {
+  font-size: 22px;
+  letter-spacing: -0.3px;
+  margin: 36px 0 12px;
+  color: var(--navy-900);
+}
+h3 {
+  font-size: 16px;
+  margin: 24px 0 8px;
+  color: var(--navy-800);
+  font-weight: 700;
+}
+p { margin: 8px 0; color: var(--slate-700); }
+strong { color: var(--navy-900); }
+ul { padding-left: 22px; margin: 8px 0; }
+li { margin: 4px 0; color: var(--slate-700); }
+
+.lead {
+  background: #fff;
+  border: 1px solid var(--slate-200);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-bottom: 24px;
+}
+.lead p { margin: 4px 0; font-size: 14.5px; }
+.lead .label {
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--record);
+  margin-bottom: 4px;
+}
+
+.section + .section { margin-top: 28px; }
+
+footer {
+  border-top: 1px solid var(--slate-200);
+  padding: 28px 20px;
+  margin-top: 60px;
+  text-align: center;
+  color: var(--slate-600);
+  font-size: 12.5px;
+}
+footer a { color: var(--navy-800); text-decoration: none; font-weight: 600; }
+footer a:hover { text-decoration: underline; }
+
+.home-grid {
+  display: grid;
+  gap: 14px;
+  margin-top: 24px;
+}
+.home-grid a {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--slate-200);
+  border-radius: 14px;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: var(--navy-900);
+  transition: border-color 0.15s;
+}
+.home-grid a:hover { border-color: var(--navy-700); }
+.home-grid h3 { margin: 0 0 4px; font-size: 16px; }
+.home-grid p { margin: 0; font-size: 13.5px; color: var(--slate-600); }
