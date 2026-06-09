@@ -1,6 +1,6 @@
 # trafik-kanit-legal
 
-Trafik Kanit Defteri uygulamasının App Store + Google Play başvurularında zorunlu olarak verilecek **Privacy Policy** ve **Terms of Use** sayfalarını host eden statik site.
+Trafik Kanıt Defteri uygulamasının App Store + Google Play başvurularında zorunlu olarak verilecek **Privacy Policy** ve **Terms of Use** sayfalarını host eden statik site.
 
 ## Setup (sen yapacaksın)
 
